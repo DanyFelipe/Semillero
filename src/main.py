@@ -12,7 +12,11 @@ class MiVentana(QMainWindow, Ui_pjCreator):
 if __name__ == "__main__":
 
     mago = Mago("Taelwin", 300, "Masculino", "Elfo")
-    print(mago.nombre)
+    habilidades_mago = mago.habilidades()
+
+    # Imprimir cada habilidad en una línea
+    for habilidad in habilidades_mago:
+        print(habilidad)
 
     app = QApplication(sys.argv)
     ventana = MiVentana()

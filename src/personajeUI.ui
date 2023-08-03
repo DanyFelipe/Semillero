@@ -54,7 +54,21 @@
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QComboBox" name="comboBox_4"/>
+     <widget class="QComboBox" name="comboBox_4">
+      <property name="currentText">
+       <string>Masculino </string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Masculino </string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Femenino</string>
+       </property>
+      </item>
+     </widget>
     </item>
     <item row="3" column="0">
      <widget class="QLabel" name="label_2">
@@ -64,7 +78,23 @@
      </widget>
     </item>
     <item row="3" column="1">
-     <widget class="QComboBox" name="comboBox"/>
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string>Mago</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Guerrero</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Arquero</string>
+       </property>
+      </item>
+     </widget>
     </item>
     <item row="4" column="0">
      <widget class="QLabel" name="label_5">
@@ -74,7 +104,33 @@
      </widget>
     </item>
     <item row="4" column="1">
-     <widget class="QComboBox" name="comboBox_3"/>
+     <widget class="QComboBox" name="comboBox_3">
+      <item>
+       <property name="text">
+        <string>Humano</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Elfo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Enano</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Goblin</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Orco</string>
+       </property>
+      </item>
+     </widget>
     </item>
    </layout>
   </widget>
